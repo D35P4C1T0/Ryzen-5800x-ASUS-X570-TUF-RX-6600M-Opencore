@@ -29,3 +29,5 @@ local/
 # Kext/build directories (if applicable)
 *.dSYM/
 build/
+
+.obsidian/
