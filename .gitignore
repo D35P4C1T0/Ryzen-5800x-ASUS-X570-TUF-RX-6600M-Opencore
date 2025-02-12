@@ -1,0 +1,31 @@
+# macOS system files
+.DS_Store
+
+# OpenCore configuration backups/duplicates
+*.plist.bak
+config.plist.backup
+config_*.plist
+
+# Text editor temporary files
+*.swp
+*.swo
+*.un~
+*.orig
+*.rej
+
+# OpenCore logs and debug files
+opencore-*.txt
+EFI/OC/OpenCore.log
+EFI/OC/.contentVisibility
+
+# Local overrides (customize per-environment)
+config.local.plist
+local/
+
+# ACPI compilation artifacts (if using source files)
+*.aml
+!EFI/OC/ACPI/*.aml  # Keep compiled ACPI in EFI directory
+
+# Kext/build directories (if applicable)
+*.dSYM/
+build/
